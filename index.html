@@ -59,7 +59,7 @@
     margin-right: 6px;
   }
 
-  .legend-swatch-radius {
+  .-swatch-radius {
     width: 12px;
     height: 12px;
     background: rgba(29,78,216,0.15);
@@ -104,13 +104,15 @@
 <body>
 <div id="map"></div>
 
-<!-- Legend -->
+<!--  -->
 <div class="legend">
-  <!-- generic meaning of symbol -->
+  <div class="legend">
+
   <div class="legend-row">
     <div class="legend-swatch-point" style="background:#1d4ed8; box-shadow:0 0 0 1px #1d4ed8;"></div>
     <div>Camera location</div>
   </div>
+
   <div class="legend-row">
     <div class="legend-swatch-radius" style="background:rgba(29,78,216,0.15); border:1px solid #1d4ed8;"></div>
     <div>10 m viewing distance</div>
@@ -118,45 +120,30 @@
 
   <hr style="border:none;border-top:1px solid #ddd;margin:8px 0;" />
 
-  <!-- per-type colors -->
+  <!-- Updated 5 camera types with the new color palette -->
   <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#edc75c; box-shadow:0 0 0 1px #edc75c;"></div>
-    <div>Vandal Dome / Dome Camera</div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#fe0301; box-shadow:0 0 0 1px #fe0301;"></div>
+    <div class="legend-swatch-point" style="background:#fd0457; box-shadow:0 0 0 1px #fd0457;"></div>
     <div>Bullet Camera</div>
   </div>
 
   <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#00ff00; box-shadow:0 0 0 1px #00ff00;"></div>
-    <div>C-Mount Camera</div>
+    <div class="legend-swatch-point" style="background:#00ffcf; box-shadow:0 0 0 1px #00ffcf;"></div>
+    <div>Traffic Camera</div>
   </div>
 
   <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#2a00ff; box-shadow:0 0 0 1px #2a00ff;"></div>
-    <div>PTZ Camera</div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#ff00ff; box-shadow:0 0 0 1px #ff00ff;"></div>
-    <div>Wireless Camera</div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#9511f3; box-shadow:0 0 0 1px #9511f3;"></div>
-    <div>360 Camera</div>
-  </div>
-
-  <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#88ffff; box-shadow:0 0 0 1px #88ffff;"></div>
+    <div class="legend-swatch-point" style="background:#ff8000; box-shadow:0 0 0 1px #ff8000;"></div>
     <div>Turret Camera</div>
   </div>
 
   <div class="legend-row">
-    <div class="legend-swatch-point" style="background:#0196a8; box-shadow:0 0 0 1px #0196a8;"></div>
+    <div class="legend-swatch-point" style="background:#01b6eb; box-shadow:0 0 0 1px #01b6eb;"></div>
     <div>Doorbell Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#8422ff; box-shadow:0 0 0 1px #8422ff;"></div>
+    <div>Dome Camera</div>
   </div>
 </div>
 
@@ -191,48 +178,18 @@
   var allLatLngs = [];
 
   // --- NEW: color map for each camera type ---
-  function colorForType(cameraTypeRaw) {
-    // normalize cameraType to make matching a bit safer
-    var t = (cameraTypeRaw || '').toLowerCase().trim();
+function colorForType(cameraTypeRaw) {
+  var t = (cameraTypeRaw || '').toLowerCase().trim();
 
-    // Your desired palette:
-    // Vanal Dome      -> #edc75c
-    // Bullet          -> #fe0301
-    // C-Mount         -> #00ff00
-    // PTZ             -> #2a00ff
-    // Wireless        -> #ff00ff
-    // 360             -> #9511f3
-    // Turret dome     -> #88ffff
-    // Doorbell Cam    -> #0196a8
+  if (t.includes('bullet')) return '#fd0457';
+  if (t.includes('traffic')) return '#00ffcf';
+  if (t.includes('turret')) return '#ff8000';
+  if (t.includes('doorbell')) return '#01b6eb';
+  if (t.includes('dome')) return '#8422ff';
 
-    // We'll match these against the labels in the data:
-    // "Dome Camera"
-    if (t.includes('dome')) return '#edc75c';
-
-    // "Bullet Camera"
-    if (t.includes('bullet')) return '#fe0301';
-
-    // "C-Mount Camera"
-    if (t.includes('c-mount')) return '#00ff00';
-
-    // "PTZ (Pan Tilt Zoom) Camera"
-    if (t.includes('ptz')) return '#2a00ff';
-
-    // "Wireless Camera"
-    if (t.includes('wireless')) return '#ff00ff';
-
-    // "360 Camera"
-    if (t.includes('360')) return '#9511f3';
-
-    // "Turret Camera" (your palette calls this "Turret dome")
-    if (t.includes('turret')) return '#88ffff';
-
-    // "Doorbell Camera"
-    if (t.includes('doorbell')) return '#0196a8';
-
-    // fallback color for weird / unknown / "Unidentified Hanging Object"
-    return '#666666';
-  }
+  // fallback
+  return '#666666';
+}
 
   // Build the popup HTML for each feature
   function buildPopupHTML(props) {
