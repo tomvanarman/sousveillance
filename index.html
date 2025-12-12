@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Camera Spotting Tour Map</title>
+
+<!-- Leaflet CSS -->
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin=""
+/>
+
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #fff;
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Legend styling */
+  .legend {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 10px;
+    padding: 10px 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    font-size: 13px;
+    line-height: 1.4;
+    z-index: 1000;
+  }
+
+  .legend-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+  }
+  .legend-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .legend-swatch-point {
+    width: 12px;
+    height: 12px;
+    background: #1d4ed8;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    box-shadow: 0 0 0 1px #1d4ed8;
+    margin-right: 6px;
+  }
+
+  .legend-swatch-radius {
+    width: 12px;
+    height: 12px;
+    background: rgba(29,78,216,0.15);
+    border-radius: 50%;
+    border: 1px solid #1d4ed8;
+    margin-right: 6px;
+  }
+
+  /* Popup styling */
+  .popup-wrapper {
+    max-width: 240px;
+    line-height: 1.4;
+    font-size: 14px;
+  }
+
+  .popup-title {
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  .popup-thumb {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    object-fit: cover;
+    background: #ddd;
+  }
+
+  .popup-line {
+    background: #f5f5f5;
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-bottom: 4px;
+    word-break: break-word;
+  }
+</style>
+</head>
+
+<body>
+<div id="map"></div>
+
+<!-- Legend -->
+<div class="legend">
+  <!-- generic meaning of symbol -->
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#1d4ed8; box-shadow:0 0 0 1px #1d4ed8;"></div>
+    <div>Camera location</div>
+  </div>
+  <div class="legend-row">
+    <div class="legend-swatch-radius" style="background:rgba(29,78,216,0.15); border:1px solid #1d4ed8;"></div>
+    <div>10 m viewing distance</div>
+  </div>
+
+  <hr style="border:none;border-top:1px solid #ddd;margin:8px 0;" />
+
+  <!-- per-type colors -->
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#edc75c; box-shadow:0 0 0 1px #edc75c;"></div>
+    <div>Vandal Dome / Dome Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#fe0301; box-shadow:0 0 0 1px #fe0301;"></div>
+    <div>Bullet Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#00ff00; box-shadow:0 0 0 1px #00ff00;"></div>
+    <div>C-Mount Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#2a00ff; box-shadow:0 0 0 1px #2a00ff;"></div>
+    <div>PTZ Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#ff00ff; box-shadow:0 0 0 1px #ff00ff;"></div>
+    <div>Wireless Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#9511f3; box-shadow:0 0 0 1px #9511f3;"></div>
+    <div>360 Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#88ffff; box-shadow:0 0 0 1px #88ffff;"></div>
+    <div>Turret Camera</div>
+  </div>
+
+  <div class="legend-row">
+    <div class="legend-swatch-point" style="background:#0196a8; box-shadow:0 0 0 1px #0196a8;"></div>
+    <div>Doorbell Camera</div>
+  </div>
+</div>
+
+
+<!-- Leaflet JS -->
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin="">
+</script>
+
+<script>
+(function () {
+  // Path to your generated file (make sure it's in the same folder)
+  var GEOJSON_URL = 'cameras-new.geojson';
+
+  // 1. Initialize the map. We'll zoom to bounds after loading the data.
+  var map = L.map('map', {
+    zoomControl: true
+  });
+
+  // 2. Add a light / monochrome-ish basemap (Carto light_all)
+  L.tileLayer(
+    'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    {
+      maxZoom: 20,
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
+    }
+  ).addTo(map);
+
+  // We'll collect all lat/lngs from features so we can auto-fit
+  var allLatLngs = [];
+
+  // --- NEW: color map for each camera type ---
+  function colorForType(cameraTypeRaw) {
+    // normalize cameraType to make matching a bit safer
+    var t = (cameraTypeRaw || '').toLowerCase().trim();
+
+    // Your desired palette:
+    // Vanal Dome      -> #edc75c
+    // Bullet          -> #fe0301
+    // C-Mount         -> #00ff00
+    // PTZ             -> #2a00ff
+    // Wireless        -> #ff00ff
+    // 360             -> #9511f3
+    // Turret dome     -> #88ffff
+    // Doorbell Cam    -> #0196a8
+
+    // We'll match these against the labels in the data:
+    // "Dome Camera"
+    if (t.includes('dome')) return '#edc75c';
+
+    // "Bullet Camera"
+    if (t.includes('bullet')) return '#fe0301';
+
+    // "C-Mount Camera"
+    if (t.includes('c-mount')) return '#00ff00';
+
+    // "PTZ (Pan Tilt Zoom) Camera"
+    if (t.includes('ptz')) return '#2a00ff';
+
+    // "Wireless Camera"
+    if (t.includes('wireless')) return '#ff00ff';
+
+    // "360 Camera"
+    if (t.includes('360')) return '#9511f3';
+
+    // "Turret Camera" (your palette calls this "Turret dome")
+    if (t.includes('turret')) return '#88ffff';
+
+    // "Doorbell Camera"
+    if (t.includes('doorbell')) return '#0196a8';
+
+    // fallback color for weird / unknown / "Unidentified Hanging Object"
+    return '#666666';
+  }
+
+  // Build the popup HTML for each feature
+  function buildPopupHTML(props) {
+    var cameraType = props.camera_type || 'Camera';
+    var imgURL = props.image_url || '';
+    var indoorOutdoor = props.indoor_outdoor || '';
+    var signage = props.signage_visible || '';
+
+    var html = '<div class="popup-wrapper">';
+
+    // Title
+    html += '<div class="popup-title">' + cameraType + '</div>';
+
+    // Thumbnail
+    if (imgURL) {
+      html += '<img class="popup-thumb" src="' + imgURL + '" alt="Camera image" />';
+    }
+
+    // Indoor / Outdoor
+    if (indoorOutdoor) {
+      html += '<div class="popup-line"><strong>Indoors / Outdoors:</strong> ' +
+              indoorOutdoor + '</div>';
+    }
+
+    // Signage visible?
+    if (signage) {
+      html += '<div class="popup-line"><strong>Signage visible?:</strong> ' +
+              signage + '</div>';
+    }
+
+    html += '</div>';
+    return html;
+  }
+
+  // 3. Fetch and add the GeoJSON to the map
+  fetch(GEOJSON_URL)
+    .then(function (resp) {
+      if (!resp.ok) {
+        throw new Error('Failed to load ' + GEOJSON_URL + ' (' + resp.status + ')');
+      }
+      return resp.json();
+    })
+    .then(function (geojsonData) {
+      // Build a Leaflet GeoJSON layer
+      var layer = L.geoJSON(geojsonData, {
+        pointToLayer: function (feature, latlng) {
+          var props = feature.properties || {};
+          var camType = props.camera_type || '';
+          var color = colorForType(camType);
+
+          // Create the main visible marker with per-type color
+          var marker = L.circleMarker(latlng, {
+            radius: 6,
+            color: '#ffffff',   // white stroke outline
+            weight: 2,
+            fillColor: color,   // per-type color
+            fillOpacity: 0.85
+          });
+
+          // Bind popup with camera info
+          marker.bindPopup(buildPopupHTML(props));
+
+          // Add a ~10 m viewing distance circle (halo).
+          // You could ALSO color this with 'color', if you want same-color halos.
+          var circle = L.circle(latlng, {
+            radius: 10,               // meters
+            color: color,
+            weight: 1,
+            fillColor: color,
+            fillOpacity: 0.15
+          });
+          circle.addTo(map);
+
+          // Track this point so we can fit the map later
+          allLatLngs.push(latlng);
+
+          return marker;
+        }
+      }).addTo(map);
+
+      // Fit the map to include all points
+      if (allLatLngs.length > 0) {
+        var bounds = L.latLngBounds(allLatLngs);
+        map.fitBounds(bounds.pad(0.2));
+      } else {
+        // fallback view (center somewhere sensible)
+        map.setView([52.3725, 4.9175], 16);
+      }
+    })
+    .catch(function (err) {
+      console.error(err);
+      alert('Could not load cameras-new.geojson. See console for details.');
+    });
+})();
+</script>
+
+
+</body>
+</html>
