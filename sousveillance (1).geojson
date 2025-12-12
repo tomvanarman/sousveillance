@@ -1,0 +1,1202 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914281,
+          52.370695
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "7b420953-20e7-4592-b7ce-416850057c1b",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=7b420953-20e7-4592-b7ce-416850057c1b_1765537532.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Parking security",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T11:06:06.000Z",
+        "uploaded_at": "2025-12-12T11:22:53.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914145,
+          52.370709
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "d1ef00fe-8536-4a92-8726-39c02989d2c3",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=d1ef00fe-8536-4a92-8726-39c02989d2c3_1765537415.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "It's not a camera, but maybe sound sensor?",
+        "accuracy_m": 6,
+        "created_at": "2025-12-12T11:04:19.000Z",
+        "uploaded_at": "2025-12-12T11:22:49.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914691,
+          52.371211
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "4632f911-185f-4f6c-9abb-a039f848347e",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=4632f911-185f-4f6c-9abb-a039f848347e_1765537237.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "For surveillance",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T11:00:59.000Z",
+        "uploaded_at": "2025-12-12T11:22:44.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914792,
+          52.371218
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "fc92b004-8510-47b6-99d7-68808919a4f1",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=fc92b004-8510-47b6-99d7-68808919a4f1_1765537167.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Probably doppler camera, near crossroad",
+        "accuracy_m": 6,
+        "created_at": "2025-12-12T11:00:05.000Z",
+        "uploaded_at": "2025-12-12T11:22:40.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914851,
+          52.37121
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "dbfb106d-4d7e-427c-a7ae-d463fada5996",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=dbfb106d-4d7e-427c-a7ae-d463fada5996_1765537082.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Traffic",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T10:58:28.000Z",
+        "uploaded_at": "2025-12-12T11:22:36.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.915179,
+          52.371345
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "d1055c01-fdf0-43c8-b597-d45c484ab941",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=d1055c01-fdf0-43c8-b597-d45c484ab941_1765537008.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Surveillance",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:57:18.000Z",
+        "uploaded_at": "2025-12-12T11:22:31.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.91569,
+          52.370923
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "1fab6447-18ec-4e9b-b158-7bfebb1275bb",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=1fab6447-18ec-4e9b-b158-7bfebb1275bb_1765536912.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Traffic",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:55:32.000Z",
+        "uploaded_at": "2025-12-12T11:22:27.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916738,
+          52.373179
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "b85ee786-b5e8-489f-87e7-ae624592cf12",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=b85ee786-b5e8-489f-87e7-ae624592cf12_1765536248.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Traffic",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T10:44:57.000Z",
+        "uploaded_at": "2025-12-12T11:22:22.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.915636,
+          52.373471
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "05f0e69a-5b00-4b88-9ab8-cc98859ee8a0",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=05f0e69a-5b00-4b88-9ab8-cc98859ee8a0_1765535903.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Registering sound",
+        "accuracy_m": 24,
+        "created_at": "2025-12-12T10:39:07.000Z",
+        "uploaded_at": "2025-12-12T11:22:18.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.913841,
+          52.374752
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "ec3f45d0-c67d-4702-b343-045a7f7f99ce",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=ec3f45d0-c67d-4702-b343-045a7f7f99ce_1765538106.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Taking photos",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T11:15:23.000Z",
+        "uploaded_at": "2025-12-12T11:21:04.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.913758,
+          52.374769
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "90382a1b-7ce5-40b0-8ecb-acb324ad048f",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=90382a1b-7ce5-40b0-8ecb-acb324ad048f_1765538055.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Autonomous driving / boating",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T11:14:36.000Z",
+        "uploaded_at": "2025-12-12T11:21:02.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.912203,
+          52.377211
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "14a89d17-2f21-4983-8eb4-3e1bb76f7a3e",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=14a89d17-2f21-4983-8eb4-3e1bb76f7a3e_1765537591.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security of the lift",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T11:06:47.000Z",
+        "uploaded_at": "2025-12-12T11:21:01.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914311,
+          52.377327
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "4cedd889-48a5-4c89-af25-5b9eb21e7d1c",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=4cedd889-48a5-4c89-af25-5b9eb21e7d1c_1765537419.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security of the traffic camera",
+        "accuracy_m": 6,
+        "created_at": "2025-12-12T11:03:56.000Z",
+        "uploaded_at": "2025-12-12T11:20:59.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914106,
+          52.377317
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "bf0179ac-1cbd-405f-a9c2-ef516715bfb9",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=bf0179ac-1cbd-405f-a9c2-ef516715bfb9_1765537378.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Speeding fines",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T11:03:17.000Z",
+        "uploaded_at": "2025-12-12T11:20:58.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.912427,
+          52.377558
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "4af50980-bd56-4e1e-b610-a949c1607d8f",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=4af50980-bd56-4e1e-b610-a949c1607d8f_1765537183.jpg",
+        "is_pointing": "no",
+        "purpose_guess": "Security for the terrace of the restaurant",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T11:00:16.000Z",
+        "uploaded_at": "2025-12-12T11:20:56.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.911786,
+          52.377202
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "06338f2a-f1dc-4db4-bfd9-cfdbe47d8f5f",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=06338f2a-f1dc-4db4-bfd9-cfdbe47d8f5f_1765537045.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "No clue. Maybe the functioning of the lift.",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:57:49.000Z",
+        "uploaded_at": "2025-12-12T11:20:55.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914085,
+          52.376245
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "fb3f680e-9e87-43f9-9a54-9ea2217a8bf9",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=fb3f680e-9e87-43f9-9a54-9ea2217a8bf9_1765536707.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "this One is for pedestrians and cyclists the previous one was for boats. Both for functioning of the bridge",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:52:39.000Z",
+        "uploaded_at": "2025-12-12T11:20:54.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914211,
+          52.376065
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "0c8b3250-111a-4df8-87f1-b598938a1a90",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=0c8b3250-111a-4df8-87f1-b598938a1a90_1765536653.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "For seeing traffic and whether the bridge can be opened",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:51:23.000Z",
+        "uploaded_at": "2025-12-12T11:20:52.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914329,
+          52.375642
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "3da5967d-4afd-47d1-9faf-341f2e7b6391",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=3da5967d-4afd-47d1-9faf-341f2e7b6391_1765536462.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Geen idee, it’s focussed on the bridge",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:48:22.000Z",
+        "uploaded_at": "2025-12-12T11:20:51.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914742,
+          52.375615
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "1889fbaa-ab22-422c-aeb9-72742021cbff",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=1889fbaa-ab22-422c-aeb9-72742021cbff_1765536375.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Guarding the military area",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:46:42.000Z",
+        "uploaded_at": "2025-12-12T11:20:50.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.91416,
+          52.37429
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "3a3a47d6-8040-4199-b629-e3e76c3012e7",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "",
+        "is_pointing": "yes",
+        "purpose_guess": "Safety, it’s next to a door",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T10:40:10.000Z",
+        "uploaded_at": "2025-12-12T11:20:48.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914195,
+          52.376142
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "15c0b624-a94b-4109-bb0a-9231047f94b0",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=15c0b624-a94b-4109-bb0a-9231047f94b0_1765536740.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Boat Traffick enforcement. Opening Bridge",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:53:18.000Z",
+        "uploaded_at": "2025-12-12T11:20:39.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914797,
+          52.375711
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "4fb848d7-25e0-49be-b15a-1e7aee0add14",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=4fb848d7-25e0-49be-b15a-1e7aee0add14_1765536384.jpg",
+        "is_pointing": "no",
+        "purpose_guess": "Protecting closed area. Surveillance",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:51:58.000Z",
+        "uploaded_at": "2025-12-12T11:20:37.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.91423,
+          52.375211
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "7be7e81c-6fa6-43dc-8329-7eb2b0e34e27",
+        "title": "Doorbell Camera",
+        "camera_type": "Doorbell Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=7be7e81c-6fa6-43dc-8329-7eb2b0e34e27_1765536287.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Identifying visitors",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:45:20.000Z",
+        "uploaded_at": "2025-12-12T11:20:36.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914225,
+          52.374326
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "3df86053-432b-4562-b6ec-b110289a2bd8",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=3df86053-432b-4562-b6ec-b110289a2bd8_1765536035.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security. Watching entrance",
+        "accuracy_m": 13,
+        "created_at": "2025-12-12T10:41:31.000Z",
+        "uploaded_at": "2025-12-12T11:20:35.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916813,
+          52.373191
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "2986c63d-766c-4a6e-b6b2-d99d8f12322a",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=2986c63d-766c-4a6e-b6b2-d99d8f12322a_1765536647.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Traffic control",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:52:00.000Z",
+        "uploaded_at": "2025-12-12T11:16:25.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914165,
+          52.374348
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "00504cda-ff04-489b-bcaf-25c25deadb31",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=00504cda-ff04-489b-bcaf-25c25deadb31_1765536100.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Building security",
+        "accuracy_m": 12,
+        "created_at": "2025-12-12T10:42:13.000Z",
+        "uploaded_at": "2025-12-12T11:16:21.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914811,
+          52.371247
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "76115f81-073f-4120-934d-2b8c93a50624",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=76115f81-073f-4120-934d-2b8c93a50624_1765537538.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T11:06:07.000Z",
+        "uploaded_at": "2025-12-12T11:16:19.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.915769,
+          52.37157
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "40e9bf3e-0a26-4405-98b8-77e6233beba9",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=40e9bf3e-0a26-4405-98b8-77e6233beba9_1765537355.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 16,
+        "created_at": "2025-12-12T11:02:55.000Z",
+        "uploaded_at": "2025-12-12T11:16:17.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.911708,
+          52.37718
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "c97ee629-2928-421e-96d7-379950fea42a",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=c97ee629-2928-421e-96d7-379950fea42a_1765537421.jpg",
+        "is_pointing": "no",
+        "purpose_guess": "Security of private parking",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T11:04:06.000Z",
+        "uploaded_at": "2025-12-12T11:11:55.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.912217,
+          52.377244
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "bafc8a91-9cda-4b61-acec-8e9e7e398fe2",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=bafc8a91-9cda-4b61-acec-8e9e7e398fe2_1765537290.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Traffic",
+        "accuracy_m": 3,
+        "created_at": "2025-12-12T11:02:32.000Z",
+        "uploaded_at": "2025-12-12T11:11:51.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.912476,
+          52.377877
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "91435428-310f-422a-86c0-c266c2aa2742",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=91435428-310f-422a-86c0-c266c2aa2742_1765537023.jpg",
+        "is_pointing": "no",
+        "purpose_guess": "Safety cam for bar entry",
+        "accuracy_m": 21,
+        "created_at": "2025-12-12T10:57:36.000Z",
+        "uploaded_at": "2025-12-12T11:11:46.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.911764,
+          52.377243
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "368f8e21-8858-4340-8157-ae6a6c174985",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=368f8e21-8858-4340-8157-ae6a6c174985_1765536793.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Elevator/parkinglot security",
+        "accuracy_m": 4,
+        "created_at": "2025-12-12T10:54:04.000Z",
+        "uploaded_at": "2025-12-12T11:11:42.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.911755,
+          52.376653
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "3f483fa0-78e5-478a-be73-61a5679f114e",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=3f483fa0-78e5-478a-be73-61a5679f114e_1765536642.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Bike/parking sec",
+        "accuracy_m": 7,
+        "created_at": "2025-12-12T10:51:18.000Z",
+        "uploaded_at": "2025-12-12T11:11:37.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.915079,
+          52.375751
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "122833f0-8863-4294-8d19-47dc702503ee",
+        "title": "Turret Camera",
+        "camera_type": "Turret Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=122833f0-8863-4294-8d19-47dc702503ee_1765537544.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 6,
+        "created_at": "2025-12-12T11:06:10.000Z",
+        "uploaded_at": "2025-12-12T11:10:33.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.91202,
+          52.376403
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "66fb8de6-50ba-4af2-93af-ce83b90a18da",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=66fb8de6-50ba-4af2-93af-ce83b90a18da_1765537135.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 7,
+        "created_at": "2025-12-12T10:59:02.000Z",
+        "uploaded_at": "2025-12-12T11:10:32.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914117,
+          52.376267
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "36c0391e-cdc2-49a9-9c3d-a71217603038",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=36c0391e-cdc2-49a9-9c3d-a71217603038_1765536777.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:53:07.000Z",
+        "uploaded_at": "2025-12-12T11:10:31.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914152,
+          52.375995
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "fc4216db-0bf1-4675-b854-130cb1c0fe58",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=fc4216db-0bf1-4675-b854-130cb1c0fe58_1765536732.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:52:22.000Z",
+        "uploaded_at": "2025-12-12T11:10:29.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914387,
+          52.37565
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "f6a1664f-0915-41d8-8d2a-e65bc501208a",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=f6a1664f-0915-41d8-8d2a-e65bc501208a_1765537522.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "No clue",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T11:06:55.000Z",
+        "uploaded_at": "2025-12-12T11:10:29.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914233,
+          52.376079
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "f00273cf-3aee-4ec1-9dea-24dcaf5017ff",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=f00273cf-3aee-4ec1-9dea-24dcaf5017ff_1765536900.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Boat and bicycle traffic",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:55:32.000Z",
+        "uploaded_at": "2025-12-12T11:10:28.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914623,
+          52.375711
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "f88720d5-7a18-4159-a4bc-4ea0d81fef6f",
+        "title": "It's a camera, but I don't know what kind.",
+        "camera_type": "It's a camera, but I don't know what kind. ",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=f88720d5-7a18-4159-a4bc-4ea0d81fef6f_1765536769.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security",
+        "accuracy_m": 9,
+        "created_at": "2025-12-12T10:53:33.000Z",
+        "uploaded_at": "2025-12-12T11:10:26.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.913563,
+          52.374988
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "99450fa2-f4ce-4838-8811-e7b90eb510d9",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=99450fa2-f4ce-4838-8811-e7b90eb510d9_1765536494.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security but pointes weirdly to the side of the building",
+        "accuracy_m": 5,
+        "created_at": "2025-12-12T10:52:23.000Z",
+        "uploaded_at": "2025-12-12T11:10:25.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914453,
+          52.374418
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "da98c764-2d3e-4b4b-b954-401a634ff7eb",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=da98c764-2d3e-4b4b-b954-401a634ff7eb_1765536170.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security near entrance door office",
+        "accuracy_m": 10,
+        "created_at": "2025-12-12T10:43:18.000Z",
+        "uploaded_at": "2025-12-12T11:10:23.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914138,
+          52.374369
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "d5aa094a-309c-43e2-9b3c-b0c4c59eabd6",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "",
+        "is_pointing": "yes",
+        "purpose_guess": "Security camera next to entrance door of office",
+        "accuracy_m": 23,
+        "created_at": "2025-12-12T10:41:43.000Z",
+        "uploaded_at": "2025-12-12T11:10:22.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914238,
+          52.375629
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "1c685698-487e-4ea0-8afd-c17b4105e942",
+        "title": "Dome Camera",
+        "camera_type": "Dome Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=1c685698-487e-4ea0-8afd-c17b4105e942_1765536462.jpg",
+        "is_pointing": "I'm not sure",
+        "purpose_guess": "",
+        "accuracy_m": 9,
+        "created_at": "2025-12-12T10:48:45.000Z",
+        "uploaded_at": "2025-12-12T11:10:21.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.913515,
+          52.374979
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "bede8f63-289a-41e7-9885-ed2f16fea759",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=bede8f63-289a-41e7-9885-ed2f16fea759_1765536269.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 14,
+        "created_at": "2025-12-12T10:44:46.000Z",
+        "uploaded_at": "2025-12-12T11:10:19.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914321,
+          52.374227
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "885b8d01-da62-406d-aee9-a61d791e79fc",
+        "title": "Turret Camera",
+        "camera_type": "Turret Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=885b8d01-da62-406d-aee9-a61d791e79fc_1765536111.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "",
+        "accuracy_m": 12,
+        "created_at": "2025-12-12T10:42:37.000Z",
+        "uploaded_at": "2025-12-12T11:10:18.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914343,
+          52.375672
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "5dc96c61-4412-4e61-ab2e-805897574d3d",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=5dc96c61-4412-4e61-ab2e-805897574d3d_1765462776.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Crowd counting?",
+        "accuracy_m": 11,
+        "created_at": "2025-12-11T14:19:58.000Z",
+        "uploaded_at": "2025-12-11T14:29:05.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.913841,
+          52.374547
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "d325b147-8000-42c8-b058-f51db02f4c44",
+        "title": "Turret Camera",
+        "camera_type": "Turret Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=d325b147-8000-42c8-b058-f51db02f4c44_1765462620.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Terrance monitor?",
+        "accuracy_m": 7,
+        "created_at": "2025-12-11T14:17:21.000Z",
+        "uploaded_at": "2025-12-11T14:29:04.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914097,
+          52.374383
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "17ea9e64-af37-46f7-b3e7-76271d408634",
+        "title": "Turret Camera",
+        "camera_type": "Turret Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=17ea9e64-af37-46f7-b3e7-76271d408634_1765462545.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Door control",
+        "accuracy_m": 9,
+        "created_at": "2025-12-11T14:16:05.000Z",
+        "uploaded_at": "2025-12-11T14:29:02.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.914828,
+          52.373633
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "dd65557e-68c2-4e74-a9d6-9df15ead785d",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=dd65557e-68c2-4e74-a9d6-9df15ead785d_1765462425.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "I don’t know. It has a shutter and a button",
+        "accuracy_m": 6,
+        "created_at": "2025-12-11T14:14:17.000Z",
+        "uploaded_at": "2025-12-11T14:29:01.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.91648,
+          52.37335
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "03f4f27e-5a1f-44d7-b5de-9f6576464cea",
+        "title": "Doorbell Camera",
+        "camera_type": "Doorbell Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=03f4f27e-5a1f-44d7-b5de-9f6576464cea_1765462286.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Door control",
+        "accuracy_m": 8,
+        "created_at": "2025-12-11T14:11:44.000Z",
+        "uploaded_at": "2025-12-11T14:29:00.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916851,
+          52.373125
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "e2f9a2c4-7727-4864-ab46-228d3a4b855e",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=e2f9a2c4-7727-4864-ab46-228d3a4b855e_1765462106.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Crowd control",
+        "accuracy_m": 10,
+        "created_at": "2025-12-11T14:08:52.000Z",
+        "uploaded_at": "2025-12-11T14:28:58.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.916852,
+          52.373213
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "c049ccbf-eb9c-41f6-ae73-efb196867648",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=c049ccbf-eb9c-41f6-ae73-efb196867648_1765462073.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Parking control",
+        "accuracy_m": 7,
+        "created_at": "2025-12-11T14:08:07.000Z",
+        "uploaded_at": "2025-12-11T14:28:57.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.917215,
+          52.372898
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "b03967d1-692b-4922-83cb-a829c49b7e1a",
+        "title": "Bullet Camera",
+        "camera_type": "Bullet Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=b03967d1-692b-4922-83cb-a829c49b7e1a_1765462013.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Parking control",
+        "accuracy_m": 6,
+        "created_at": "2025-12-11T14:07:13.000Z",
+        "uploaded_at": "2025-12-11T14:28:55.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.917922,
+          52.372576
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "dba8dfc6-118e-419f-8067-e93ac110dbbb",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=dba8dfc6-118e-419f-8067-e93ac110dbbb_1765461952.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Marines",
+        "accuracy_m": 13,
+        "created_at": "2025-12-11T14:06:05.000Z",
+        "uploaded_at": "2025-12-11T14:28:54.000Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.917975,
+          52.372621
+        ]
+      },
+      "properties": {
+        "ec5_uuid": "10bf2966-4618-48b0-86f0-d8273963c1ad",
+        "title": "Traffic Enforcement Camera",
+        "camera_type": "Traffic Enforcement Camera",
+        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=10bf2966-4618-48b0-86f0-d8273963c1ad_1765461908.jpg",
+        "is_pointing": "yes",
+        "purpose_guess": "Security",
+        "accuracy_m": 7,
+        "created_at": "2025-12-11T14:05:27.000Z",
+        "uploaded_at": "2025-12-11T14:28:53.000Z"
+      }
+    }
+  ]
+}
