@@ -284,27 +284,6 @@
         ]
       },
       "properties": {
-        "accuracy_m": 4,
-        "camera_type": "It's a camera, but I don't know what kind. ",
-        "created_at": "2026-01-29T16:04:57.000Z",
-        "ec5_uuid": "753be714-d87e-49d3-acee-32c18fce3104",
-        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=753be714-d87e-49d3-acee-32c18fce3104_1769702678.jpg",
-        "is_pointing": "yes",
-        "purpose_guess": null,
-        "title": "It's a camera, but I don't know what kind.",
-        "uploaded_at": "2026-01-29T16:11:28.000Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.91138,
-          52.36981
-        ]
-      },
-      "properties": {
         "accuracy_m": 11,
         "camera_type": "Bullet Camera",
         "created_at": "2026-01-29T15:57:48.000Z",
