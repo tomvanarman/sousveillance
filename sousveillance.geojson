@@ -1187,27 +1187,6 @@
         ]
       },
       "properties": {
-        "accuracy_m": 6,
-        "camera_type": "It's a camera, but I don't know what kind. ",
-        "created_at": "2025-12-12T11:04:19.000Z",
-        "ec5_uuid": "d1ef00fe-8536-4a92-8726-39c02989d2c3",
-        "image_url": "https://five.epicollect.net/api/media/sousveillance-amsterdam?type=photo&format=entry_original&name=d1ef00fe-8536-4a92-8726-39c02989d2c3_1765537415.jpg",
-        "is_pointing": "yes",
-        "purpose_guess": "It's not a camera, but maybe sound sensor?",
-        "title": "It's a camera, but I don't know what kind.",
-        "uploaded_at": "2025-12-12T11:22:49.000Z"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.914691,
-          52.371211
-        ]
-      },
-      "properties": {
         "accuracy_m": 5,
         "camera_type": "Dome Camera",
         "created_at": "2025-12-12T11:00:59.000Z",
